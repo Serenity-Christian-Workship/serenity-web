@@ -394,6 +394,31 @@ nav > ul li a:active {
 	margin-top: 23px;
 }
 
+.iphonePreviewFeature {
+	background-image: url($device-color);
+	display: flex;
+	background-size: 260px auto;
+	background-position: center 0;
+	background-repeat: no-repeat;
+	margin-top: 68px;
+	justify-content: center;
+	padding-bottom: 75px
+}
+
+
+.iphoneScreenFeature {
+	width: 226px;
+	height: 488px;
+	-webkit-clip-path: url(#screenMask);
+	clip-path: url(#screenMask);
+	margin-left: 0px;
+	margin-top: 17px;
+}
+
+
+
+
+
 .videoContainer {
 	width: 349px;
 	height: 755px;
@@ -419,6 +444,21 @@ nav > ul li a:active {
 		margin-left: 24px;
 		margin-top: 22px;
 	}
+	
+// 	.iphonePreviewFeature {
+// 		display: flex;
+// 		background-size: 370px auto;
+// 		background-position: center 0;
+// 		margin-top: 47px;
+// 		justify-content: center;
+// 		padding-bottom: 75px
+// 	}
+
+// 	.iphoneScreenFeature {
+// 		width: 322px;
+// 		margin-left: 24px;
+// 		margin-top: 22px;
+// 	}
 
 	.videoContainer {
 		width: 322px;
@@ -453,6 +493,24 @@ nav > ul li a:active {
 		margin: 0px;
 		margin-top: 17px;
 	}
+	
+// 	.iphonePreviewFeature {
+// 		display: flex;
+// 		background-size: 260px auto;
+// 		background-position: center 0;
+// 		margin-top: 47px;
+// 		justify-content: center;
+// 		padding-bottom: 75px;
+// 	}
+
+// 	.iphoneScreenFeature {
+// 		width: 226px;
+// 		height: 488px;
+// 		-webkit-clip-path: url(#screenMask);
+// 		clip-path: url(#screenMask);
+// 		margin: 0px;
+// 		margin-top: 17px;
+// 	}
 
 	.videoContainer {
 		width: 226px;
@@ -471,36 +529,41 @@ nav > ul li a:active {
 
 // Feature List
 
-.features {
+.features {	
 	grid-area: c;
 	display: flex;
 	flex: 0 1 auto;
-	align-content: flex-start;
-	justify-content: flex-start;
-	flex-grow: 1;
+// 	align-content: flex-start;
+// 	justify-content: center;
+// 	flex-grow: 1;
 	flex-wrap: wrap;
 	margin-top: 93px;
-}
-
-.feature {
+// 	border: 5px solid red;
+	}
+	
+	.feature {
 	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
 	padding-top: 63px;
 	padding-left: 15px;
 	padding-right: 15px;
-	width: calc(100%/3);
-}
+	width: 100%;
+// 	border: 5px solid red;
+	}
 
-.feature:nth-child(-n+3) {
-    padding-top: 0px;   
-}
 
-.feature:nth-child(3n) {
-	padding-right: 0px;
-}
+// .feature:nth-child(-n+3) {
+//     padding-top: 0px;   
+// }
 
-.feature:nth-child(3n+1) {
-	padding-left: 0px;
-}
+// .feature:nth-child(3n) {
+// 	padding-right: 0px;
+// }
+
+// .feature:nth-child(3n+1) {
+// 	padding-left: 0px;
+// }
 
 .iconBack {
 	color: $feature-icons-background-color;
@@ -519,7 +582,12 @@ nav > ul li a:active {
 }
 
 .featureText {
+// 	display: flex;
+// 	justify-content: center;
+	display: flex;
+  	flex-direction: column;
 	margin-left: 18px;
+// 	border: 5px solid black;
 }
 
 .featureText > h3 {
@@ -531,6 +599,23 @@ nav > ul li a:active {
 	margin-top: 8px;
 	line-height: 1.5;
 }
+
+.featureImage {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	background-image: url($device-color);
+	background-repeat: no-repeat;
+	background-size: 260px auto;
+// 	border: 3px solid red;
+}
+
+.featureImage > img {
+	width: 226px;
+	height: 488px;
+}
+
 
 @media only screen and (max-width: 992px) {
 
@@ -549,21 +634,21 @@ nav > ul li a:active {
 		width: 100%;
 	}
 
-	.feature:nth-child(-n+3) {
-		padding-top: 41px;   
-	}
+// 	.feature:nth-child(-n+3) {
+// 		padding-top: 41px;   
+// 	}
 
-	.feature:nth-child(1) {
-		padding-top: 0px;   
-	}
+// 	.feature:nth-child(1) {
+// 		padding-top: 0px;   
+// 	}
 
-	.feature:nth-child(3n) {
-		padding-right: 15px;
-	}
+// 	.feature:nth-child(3n) {
+// 		padding-right: 15px;
+// 	}
 	
-	.feature:nth-child(3n+1) {
-		padding-left: 15px;
-	}
+// 	.feature:nth-child(3n+1) {
+// 		padding-left: 15px;
+// 	}
 	
 }
 
@@ -584,21 +669,21 @@ nav > ul li a:active {
 		width: 100%;
 	}
 
-	.feature:nth-child(-n+3) {
-		padding-top: 41px;   
-	}
+// 	.feature:nth-child(-n+3) {
+// 		padding-top: 41px;   
+// 	}
 
-	.feature:nth-child(1) {
-		padding-top: 0px;   
-	}
+// 	.feature:nth-child(1) {
+// 		padding-top: 0px;   
+// 	}
 
-	.feature:nth-child(3n) {
-		padding-right: 0px;
-	}
+// 	.feature:nth-child(3n) {
+// 		padding-right: 0px;
+// 	}
 	
-	.feature:nth-child(3n+1) {
-		padding-left: 0px;
-	}
+// 	.feature:nth-child(3n+1) {
+// 		padding-left: 0px;
+// 	}
 	
 } 
 
