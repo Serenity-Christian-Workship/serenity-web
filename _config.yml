@@ -34,7 +34,7 @@ github_username                           : rchapman001
 # Feature List                            Edit, add or remove features to be presented.
 features                                  :
 
-  - title                                 : The Player Controls
+  - title                                 : Player Controls
     description                           : You may navigate the track using the play, pause, reverse, and forward buttons. The progress bar displays the track's current timestamp and allows you to control it too. 
     image                                 : assets/featureScreenshots/Simulator Screen Shot - iPhone 11 Pro Max - 2022-11-23 at 14.35.08.png
     
