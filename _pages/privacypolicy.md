@@ -5,9 +5,9 @@ include_in_header: true
 ---
 
 <h1>Privacy Policy</h1>
-<p>Last updated: December 02, 2022</p>
+<p>Last updated: December 05, 2022</p>
 <p>This Privacy Policy describes Our policies and procedures on the collection, use and disclosure of Your information when You use the Service and tells You about Your privacy rights and how the law protects You.</p>
-<p>We use Your Personal data to provide and improve the Service. By using the Service, You agree to the collection and use of information in accordance with this Privacy Policy. This Privacy Policy has been created with the help of the <a href="https://www.termsfeed.com/privacy-policy-generator/" target="_blank">TermsFeed Privacy Policy Generator</a>.</p>
+<p>We use Your Personal data to provide and improve the Service. By using the Service, You agree to the collection and use of information in accordance with this Privacy Policy. This Privacy Policy has been created with the help of the <a href="https://www.freeprivacypolicy.com/free-privacy-policy-generator/" target="_blank">Free Privacy Policy Generator</a>.</p>
 <h1>Interpretation and Definitions</h1>
 <h2>Interpretation</h2>
 <p>The words of which the initial letter is capitalized have meanings defined under the following conditions. The following definitions shall have the same meaning regardless of whether they appear in singular or in plural.</p>
@@ -138,5 +138,5 @@ include_in_header: true
 <h1>Contact Us</h1>
 <p>If you have any questions about this Privacy Policy, You can contact us:</p>
 <ul>
-<li>By visiting this page on our website: <a href="https://rchapman001.github.io/SerenityWeb/" rel="external nofollow noopener" target="_blank">https://rchapman001.github.io/SerenityWeb/</a></li>
+<li>By visiting this page on our website: <a href="https://rchapman001.github.io/SerenityWeb/privacypolicy/" rel="external nofollow noopener" target="_blank">https://rchapman001.github.io/SerenityWeb/privacypolicy/</a></li>
 </ul>
