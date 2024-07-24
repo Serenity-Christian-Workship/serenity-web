@@ -138,5 +138,5 @@ include_in_header: true
 <h1>Contact Us</h1>
 <p>If you have any questions about this Privacy Policy, You can contact us:</p>
 <ul>
-<li>By visiting this page on our website: <a href="https://rchapman001.github.io/SerenityWeb/privacypolicy/" rel="external nofollow noopener" target="_blank">https://rchapman001.github.io/SerenityWeb/privacypolicy/</a></li>
+<li>By visiting this page on our website: <a href="https://serenity-christian-worship.github.io/serenity-web/" rel="external nofollow noopener" target="_blank">https://serenity-christian-worship.github.io/serenity-web/</a></li>
 </ul>
